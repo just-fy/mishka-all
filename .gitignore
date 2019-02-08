@@ -1,0 +1,10 @@
+.idea
+node_modules/
+*.log
+*.pdf
+*.psd
+*.ai
+.DS_Store
+npm-debug.*
+css/*.css
+Thumbs.db

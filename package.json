@@ -1,0 +1,33 @@
+{
+  "name": "project1_template_blow",
+  "version": "0.0.1",
+  "description": "project with BEM methodology",
+  "main": "index.js",
+  "scripts": {
+    "test": "editorconfig-cli",
+    "build": "gulp build",
+    "start": "npm run build && gulp serve"
+  },
+  "editorconfig-cli": [
+    "*.html",
+    "*.json",
+    "*.js",
+    "js/**/*.js",
+    "img/**/*.svg",
+    "less/**/*.less"
+  ],
+  "author": "Nastya Faizulina",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "eslint": "^5.12.1"
+  },
+  "dependencies": {
+    "gulp": "^4.0.0",
+    "gulp-cli": "^2.0.1",
+    "gulp-less": "^4.0.1"
+  }
+}
